@@ -1,11 +1,33 @@
+/************************************************
+ * 1. Styles for our Page
+ *************************************************/
+
+#footer {
+	margin: 10px;
+}
+
+#header {
+	margin: 10px;	
+}
+
+
+
+
+
+
+
+/************************************************
+ * 2. Styles related to our Bar Graph
+ *************************************************/
+
 .bar {
-	fill: red;	
+	fill: red;
 }
 .bar:hover {
 	fill: blue;
 }
 
-.tooltip {
+.tt {
 	font-family: sans-serif;
 	font-size: 10px;
 	fill: black;
