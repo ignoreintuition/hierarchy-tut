@@ -17,19 +17,20 @@ var pieChart = {
     path: null,
     arc: null,
     pie: null,
-    color: d3.scaleOrdinal(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]),
+    color: null,
 
-
-    // tooltips will display the info about the currently highlignted item.
     _toolTip: function(d) {
-
+        this.container.svg.append("text")
+            .attr("x", 10)
+            .attr("y", 10)
+            .attr("class", "tt")
+            .text(d.data["key"]);
     },
 
     //Remove tooltip will erase it from the screen on mouseout.
     _removeToolTip: function(d) {
-
+        this.container.svg.selectAll(".tt").remove();
     },
-
     // _initPhase is going to set the metric, scales, domains, and axis
     // it will bind the data to our svg element
     _init: function(d, m) {
@@ -44,8 +45,8 @@ var pieChart = {
             .innerRadius(25);
         self.arc = this.container.svg.selectAll(".arc")
             .data(self.pie(d))
-
-
+        self.color =  d3.scaleOrdinal()
+            .range(["#C0D6CC", "#A3C2BA", "#7D9EA8", "#546A87", "#37386B", "5758AA"])
     },
 
     // _enterPhase will run once when our svg is first rendered
@@ -59,8 +60,16 @@ var pieChart = {
             .append("path")
             .attr("d", self.path)
             .attr("fill", function(d) {
-              return self.color(d.age);
+              console.log(d.data["key"]);
+              return self.color(d.data["key"]);
+            })
+            .on("mouseover", function(d) {
+                self._toolTip(d);
+            })
+            .on("mouseout", function(d) {
+                self._removeToolTip(d);
             });
+
     },
 
     // _updatePhase will run every time the graph is redrawn
@@ -71,7 +80,7 @@ var pieChart = {
         duration(750)
         .attr("d", self.path)
         .attr("fill", function(d) {
-          return self.color(d.age);
+          return self.color(d.key);
         });
 
     },

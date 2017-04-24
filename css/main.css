@@ -1,5 +1,6 @@
 /************************************************
  * 1. Styles for our Page
+ * http://www.colourlovers.com/palette/4480928/If_Water_Could_Talk
  *************************************************/
 
 #footer {
@@ -7,9 +8,12 @@
 }
 
 #header {
-	margin: 10px;	
+	margin: 10px;
 }
 
+.panel-heading {
+	background-color: #A3C2BA;
+}
 
 
 
@@ -21,10 +25,10 @@
  *************************************************/
 
 .bar {
-	fill: red;
+	fill: #C0D6CC;
 }
 .bar:hover {
-	fill: blue;
+	fill: #37386B;
 }
 
 .tt {
