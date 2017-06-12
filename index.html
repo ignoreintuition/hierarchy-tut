@@ -21,41 +21,20 @@
 <body>
 	<div id="header" class="row header">
 		<div class="col-md-12">
-			<h1> Population of US Residents in 2010 by Age </h1>
+			<h1> Population by State </h1>
 		</div>
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
-				<div class="panel panel-default">
-					<div class="panel-heading">Filters and Metrics</div>
-					<div class="panel-body">
-						<button class="btn btn-default" type="submit" id="total"> Total </button>
-						<button class="btn btn-default" type="submit" id="male"> Males </button>
-						<button class="btn btn-default" type="submit" id="female"> Females </button>
-						<button class="btn btn-default" type="submit" id="under50"> Under 50 </button>
-						<button class="btn btn-default" type="submit" id="over50"> Over 50 </button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
 			<div class="col-md-8">
 				<div class="panel panel-default">
-					<div class="panel-heading">Population by Age</div>
+					<div class="panel-heading">Population by state</div>
 					<div class="panel-body">
 						<div id="graph"> </div>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
-				<div class="panel panel-default">
-					<div class="panel-heading">Percentage of Population by Age</div>
-					<div class="panel-body">
-						<div id="chart"> </div>
-					</div>
-				</div>
-			</div>		</div>
+		</div>
 	</div>
 
 	<!-- Footer -->
@@ -69,8 +48,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="js/vendor/d3.min.js"></script>
+	<script src="https://d3js.org/d3-hierarchy.v1.min.js"></script>
 	<script src="js/bar.js"></script>
-	<script src="js/pie.js"></script>
 	<script src="js/main.js"></script>
 
 </body>

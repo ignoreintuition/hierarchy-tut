@@ -1,0 +1,364 @@
+{
+  "name": "United States",
+  "regions": [{
+      "name": "West",
+      "regions": [{
+          "name": "Pacific",
+					"regions": [{
+              "name": "Washington",
+              "abbreviation": "WA",
+              "population": 6971406,
+              "rank": 13
+            },
+            {
+              "name": "Oregon",
+              "abbreviation": "OR",
+              "population": 3930065,
+              "rank": 27
+            },
+            {
+              "name": "California",
+              "abbreviation": "CA",
+              "population": 38332521,
+              "rank": 1
+            },
+            {
+              "name": "Alaska",
+              "abbreviation": "AK",
+              "population": 735132,
+              "rank": 47
+            },
+            {
+              "name": "Hawaii",
+              "abbreviation": "HI",
+              "population": 1404054,
+              "rank": 40
+            }
+          ]
+        },
+        {
+          "name": "Mountain",
+          "regions": [{
+              "name": "Montana",
+              "abbreviation": "MT",
+              "population": 1015165,
+              "rank": 44
+            },
+            {
+              "name": "Idaho",
+              "abbreviation": "ID",
+              "population": 1612136,
+              "rank": 39
+            },
+            {
+              "name": "Wyoming",
+              "abbreviation": "WY",
+              "population": 582658,
+              "rank": 51
+            },
+            {
+              "name": "Nevada",
+              "abbreviation": "NV",
+              "population": 2790136,
+              "rank": 35
+            },
+            {
+              "name": "Utah",
+              "abbreviation": "UT",
+              "population": 2900872,
+              "rank": 33
+            },
+            {
+              "name": "Colorado",
+              "abbreviation": "CO",
+              "population": 5268367,
+              "rank": 22
+            },
+            {
+              "name": "Arizona",
+              "abbreviation": "AZ",
+              "population": 6626624,
+              "rank": 15
+            },
+            {
+              "name": "New Mexico",
+              "abbreviation": "NM",
+              "population": 2085287,
+              "rank": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Midwest",
+      "regions": [{
+          "name": "West North Central",
+          "regions": [{
+              "name": "North Dakota",
+              "abbreviation": "ND",
+              "population": 723393,
+              "rank": 48
+            },
+            {
+              "name": "Minnesota",
+              "abbreviation": "MN",
+              "population": 5420380,
+              "rank": 21
+            },
+            {
+              "name": "South Dakota",
+              "abbreviation": "SD",
+              "population": 844877,
+              "rank": 46
+            },
+            {
+              "name": "Iowa",
+              "abbreviation": "IA",
+              "population": 3090416,
+              "rank": 30
+            },
+            {
+              "name": "Nebraska",
+              "abbreviation": "NE",
+              "population": 1868516,
+              "rank": 37
+            },
+            {
+              "name": "Missouri",
+              "abbreviation": "MO",
+              "population": 6044171,
+              "rank": 18
+            },
+            {
+              "name": "Kansas",
+              "abbreviation": "KS",
+              "population": 2893957,
+              "rank": 34
+            }
+          ]
+        },
+        {
+          "name": "East North Central",
+          "regions": [{
+              "name": "Wisconsin",
+              "abbreviation": "WI",
+              "population": 5742713,
+              "rank": 20
+            },
+            {
+              "name": "Illinois",
+              "abbreviation": "IL",
+              "population": 12882135,
+              "rank": 5
+            },
+            {
+              "name": "Indiana",
+              "abbreviation": "IN",
+              "population": 6570902,
+              "rank": 16
+            },
+            {
+              "name": "Michigan",
+              "abbreviation": "MI",
+              "population": 9895622,
+              "rank": 9
+            },
+            {
+              "name": "Ohio",
+              "abbreviation": "OH",
+              "population": 11570808,
+              "rank": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "South",
+      "regions": [{
+          "name": "East South Central",
+					"regions": [{
+              "name": "Kentucky",
+              "abbreviation": "KY",
+              "population": 4395295,
+              "rank": 26
+            },
+            {
+              "name": "Tennessee",
+              "abbreviation": "TN",
+              "population": 6495978,
+              "rank": 17
+            },
+            {
+              "name": "Mississippi",
+              "abbreviation": "MS",
+              "population": 2991207,
+              "rank": 21
+            },
+            {
+              "name": "Alabama",
+              "abbreviation": "AL",
+              "population": 4833722,
+              "rank": 23
+            }
+          ]
+        },
+        {
+          "name": "South Atlantic",
+          "regions": [{
+              "name": "Virginia",
+              "abbreviation": "VA",
+              "population": 8260405,
+              "rank": 12
+            },
+            {
+              "name": "West Virginia",
+              "abbreviation": "WV",
+              "population": 1854304,
+              "rank": 38
+            },
+            {
+              "name": "Delaware",
+              "abbreviation": "DE",
+              "population": 925749,
+              "rank": 45
+            },
+            {
+              "name": "District Of Columbia",
+              "abbreviation": "DC",
+              "population": 646449,
+              "rank": 49
+            },
+            {
+              "name": "Florida",
+              "abbreviation": "FL",
+              "population": 19552860,
+              "rank": 4
+            },
+            {
+              "name": "Georgia",
+              "abbreviation": "GA",
+              "population": 9992167,
+              "rank": 8
+            },
+            {
+              "name": "Maryland",
+              "abbreviation": "MD",
+              "population": 5928814,
+              "rank": 19
+            },
+            {
+              "name": "North Carolina",
+              "abbreviation": "NC",
+              "population": 9848060,
+              "rank": 10
+            },
+            {
+              "name": "South Carolina",
+              "abbreviation": "SC",
+              "population": 4774839,
+              "rank": 24
+            }
+          ]
+        },
+        {
+          "name": "West South Central",
+          "regions": [{
+              "name": "Oklahoma",
+              "abbreviation": "OK",
+              "population": 3850568,
+              "rank": 28
+            },
+            {
+              "name": "Texas",
+              "abbreviation": "TX",
+              "population": 26448193,
+              "rank": 2
+            },
+
+            {
+              "name": "Louisiana",
+              "abbreviation": "LA",
+              "population": 4625470,
+              "rank": 25
+            },
+
+            {
+              "name": "Arkansas",
+              "abbreviation": "AR",
+              "population": 2959373,
+              "rank": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Northeast",
+      "regions": [{
+          "name": "Middle Atlantic",
+					"regions": [{
+              "name": "New Jersey",
+              "abbreviation": "NJ",
+              "population": 8899339,
+              "rank": 11
+            },
+            {
+              "name": "New York",
+              "abbreviation": "NY",
+              "population": 19651127,
+              "rank": 3
+            },
+            {
+              "name": "Pennsylvania",
+              "abbreviation": "PA",
+              "population": 12773801,
+              "rank": 6
+            }
+          ]
+        },
+        {
+          "name": "New England",
+          "regions": [{
+              "name": "Connecticut",
+              "abbreviation": "CT",
+              "population": 3596080,
+              "rank": 29
+            },
+            {
+              "name": "Maine",
+              "abbreviation": "ME",
+              "population": 1328302,
+              "rank": 41
+            },
+            {
+              "name": "Massachusetts",
+              "abbreviation": "MA",
+              "population": 6692824,
+              "rank": 14
+            },
+            {
+              "name": "New Hampshire",
+              "abbreviation": "NH",
+              "population": 1323459,
+              "rank": 42
+            },
+            {
+              "name": "Rhode Island",
+              "abbreviation": "RI",
+              "population": 1051511,
+              "rank": 43
+            },
+            {
+              "name": "Vermont",
+              "abbreviation": "VT",
+              "population": 626630,
+              "rank": 50
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
